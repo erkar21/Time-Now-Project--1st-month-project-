@@ -1,6 +1,6 @@
-const menuBar = document.querySelector('.menu-bar')
-const mobileNav = document.querySelector('.mobile-nav')
+const menuBar = document.querySelector('.menu-bar');
+const mobileNav = document.querySelector('.mobile-nav');
 
-menuBar.addEventListener ('click', function () {
+menuBar.addEventListener ('click', () => {
     mobileNav.classList.toggle('open')
 })
