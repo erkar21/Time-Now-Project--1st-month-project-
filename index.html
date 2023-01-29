@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TimeNow Landing Page</title>
+  </head>
+
+  <body>
+    <!-- navigation bar -->
+    <nav class="flex justify-between py-4">
+      <img class="p-4 sm:pl-32" src="images/Logo.svg" alt="Logo" />
+
+      <div class="hidden sm:flex sm:py-6 px-24">
+        <ul class="flex flex-row gap-6 sm:pl-32 items-center">
+          <li class="mr-6"></li>
+          <li><a class="hover:text-[#84D2C5]" href="#">Features</a></li>
+          <li>
+            <a class="hover:text-[#84D2C5]" href="pricing.html">Pricing</a>
+          </li>
+          <button
+            class="font-bold px-3 py-2 rounded text-white bg-[#4B56D2] hover:bg-[#472183]"
+          >
+            Start Scheduling
+          </button>
+        </ul>
+      </div>
+
+      <img
+        class="p-4 sm:hidden cursor-pointer menu-bar"
+        src="images/Hamburger Menu.svg"
+        alt=""
+      />
+    </nav>
+
+    <!-- hero section -->
+    <section class="flex flex-col sm:flex-row sm:justify-between relative">
+      <!-- mobile nav -->
+      <ul class="flex flex-row gap-6 items-center p-4 bg-[#cccccc] absolute mobile-nav">
+        <li class="mr-6"></li>
+        <li><a class="hover:text-[#84D2C5]" href="#">Features</a></li>
+        <li>
+          <a class="hover:text-[#84D2C5]" href="pricing.html">Pricing</a>
+        </li>
+        <button
+          class="font-bold px-3 py-2 rounded text-white bg-[#4B56D2] hover:bg-[#472183]"
+        >
+          Start Scheduling
+        </button>
+      </ul>
+
+      <!-- hero text container -->
+      <section class="px-4 sm:w-1/2 sm:py-16 sm:pl-32">
+        <div>
+          <h1 class="text-5xl sm:text-6xl leading-tight font-bold py-4">
+            Post when your audience is most active.
+          </h1>
+          <p class="sm:text-xl pb-4">
+            With TimeNow,automatically schedule your posts on Twitter,Linkedln,
+            and Instagram to post when your followers are most active.
+          </p>
+        </div>
+
+        <div class="pb-4">
+          <button
+            class="font-bold px-3 py-2 rounded text-white bg-[#4B56D2] hover:bg-[#472183]"
+          >
+            Start Scheduling
+          </button>
+          <a class="ml-6 font-bold hover:text-[#84D2C5]" href="#">View Demo</a>
+        </div>
+
+        <div class="flex flex-row mb-4">
+          <img class="mr-3" src="images/Shield.svg" alt="Sheild" />
+          <p class="mr-2">TimeNow does not sell your data.</p>
+          <a class="underline hover:text-[#84D2C5]" href="#">Learn more</a>
+        </div>
+      </section>
+
+      <!-- hero photo container -->
+      <section
+        class="flex justify-center bg-[#84D2C5] sm:w-1/2 px-4 sm:px-10 py-8 sm:py-20"
+      >
+        <img class="max-w-full" src="images/Mockup.png" alt="Hero Photo" />
+      </section>
+    </section>
+
+    <!-- mid section -->
+    <section
+      class="flex flex-col sm:flex-row justify-between px-4 sm:px-32 sm:py-12 mt-6 mb-4"
+    >
+      <div class="sm:w-1/2">
+        <h1 class="text-4xl leading-tight font-bold">
+          TimeNow is used by the most influential people.
+        </h1>
+        <!-- user profiles container -->
+        <div class="flex flex-wrap gap-2 mt-3">
+          <img src="images/userAvatar01.svg" alt="" />
+          <img src="images/userAvatar02.svg" alt="" />
+          <img src="images/userAvatar03.svg" alt="" />
+          <img src="images/userAvatar04.svg" alt="" />
+          <img src="images/userAvatar05.svg" alt="" />
+          <img src="images/userAvatar06.svg" alt="" />
+          <img src="images/userAvatar07.svg" alt="" />
+          <img src="images/userAvatar08.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-6 sm:px-6 sm:w-1/2 mt-3 sm:mt-0">
+        <p>
+          The most influential people on Facebook, Twitter, and Instagram are
+          using TweetNow to schedule posts when their followers are most active.
+        </p>
+        <p>
+          They generally receive 23% more engagement then people who do not. We
+          honestly advice to use TimeNow app to be comfortable in your daily
+          life.
+        </p>
+      </div>
+    </section>
+
+    <!-- infomation section -->
+    <section
+      class="bg-gradient-to-r from-cyan-300 to-red-200 hover:bg-gradient-to-l"
+    >
+      <section
+        class="flex flex-col sm:flex-row sm:justify-between px-4 sm:px-32 sm:py-12"
+      >
+        <!-- left section -->
+        <div class="sm:w-1/2 mt-10 sm:mt-0">
+          <div>
+            <p class="font-bold text-[#472183]">Unified Dashboard</p>
+            <h1 class="text-4xl leading-tight font-bold">
+              Customizable dashboard for all platforms.
+            </h1>
+            <p class="pt-2 pb-4">
+              Use Twitter and Instagram but not Linkedln? You can customize your
+              dashboard to your liking. You can even schedule the same post to
+              individual platforms instead of all platforms.
+            </p>
+          </div>
+          <button
+            class="px-3 py-2 rounded text-white bg-[#4B56D2] hover:bg-[#472183]"
+          >
+            Start Scheduling
+          </button>
+        </div>
+
+        <!-- right section -->
+        <div class="sm:w-1/2 mt-10 mb-10 sm:my-0">
+          <div>
+            <p class="font-bold text-[#472183]">Enhanced Analytics</p>
+            <h1 class="text-4xl leading-tight font-bold">
+              Real-time data that tells you everythings.
+            </h1>
+            <p class="pt-2 pb-4">
+              Get detailed reports of what's working and what isn't. Engagement
+              rates, impressions, views and much more data is available to you
+              through our in-depth dashboard tool.
+            </p>
+          </div>
+          <a class="font-bold hover:text-[#84D2C5]" href="#"
+            >View Live Demo ->
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <!-- footer section -->
+    <img class="ml-4 sm:ml-32 mt-10 mb-4" src="images/Logo.svg" alt="" />
+    <section
+      class="flex flex-col sm:flex-row sm:justify-between sm:justify-center sm:px-32 pb-10"
+    >
+      <!-- footer items container -->
+      <div class="flex gap-16 justify-between px-4 sm:w-1/2">
+        <div>
+          <p class="font-bold text-xl my-3">Product</p>
+          <ul>
+            <li class="hover:text-[#84D2C5]">Homepage</li>
+            <li class="hover:text-[#84D2C5]">
+              <a href="index.html">Pricing</a>
+            </li>
+            <li class="hover:text-[#84D2C5]">Features</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-bold text-xl my-3">Help</p>
+          <ul>
+            <li class="hover:text-[#84D2C5]">Live Chat</li>
+            <li class="hover:text-[#84D2C5]">Send Email</li>
+            <li class="hover:text-[#84D2C5]">FAQ</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-bold text-xl my-3">Company</p>
+          <ul>
+            <li class="hover:text-[#84D2C5]">About</li>
+            <li class="hover:text-[#84D2C5]">Customer</li>
+            <li class="hover:text-[#84D2C5]">Blog</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- footer input section -->
+      <div class="self-center">
+        <p class="font-bold text-xl my-3">Try TweetNow</p>
+        <form class="flex p-0.5 border border-solid border-black rounded">
+          <input class="px-4" placeholder="Enter your Email" type="email" />
+          <button
+            class="font-bold px-3 py-2 rounded text-white bg-[#4B56D2] hover:bg-[#472183]"
+          >
+            Start Scheduling
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

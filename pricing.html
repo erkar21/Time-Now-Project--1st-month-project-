@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Pricing Page</title>
+  </head>
+
+  <body class="bg-gradient-to-r from-cyan-300 to-red-200">
+    <!-- navigation section -->
+
+    <nav class="flex justify-between py-8 sm:py-10 px-4 sm:px-32">
+      <img src="images/Logo.svg" alt="Logo" />
+      <ul class="hidden sm:flex flex-row gap-6 items-center">
+        <li><a class="hover:text-[#FFFFE8]" href="index.html">Features</a></li>
+        <li><a class="hover:text-[#FFFFE8]" href="#">Pricing</a></li>
+        <div class="self-center">
+          <button
+            class="font-bold px-3 py-2 rounded text-white bg-[#4B56D2] hover:bg-[#472183]"
+          >
+            Start Scheduling
+          </button>
+        </div>
+      </ul>
+      <img class="sm:hidden" src="images/Hamburger Menu.svg" alt="" />
+    </nav>
+
+    <!-- Price section -->
+    <section class="bg-gradient-to-r from-cyan-300 to-red-200">
+      <!-- mobile nav -->
+      <ul
+        class="flex flex-row gap-6 items-center p-4 bg-[#cccccc] absolute mobile-nav"
+      >
+        <li class="mr-6"></li>
+        <li><a class="hover:text-[#84D2C5]" href="#">Features</a></li>
+        <li>
+          <a class="hover:text-[#84D2C5]" href="pricing.html">Pricing</a>
+        </li>
+        <button
+          class="font-bold px-3 py-2 rounded text-white bg-[#4B56D2] hover:bg-[#472183]"
+        >
+          Start Scheduling
+        </button>
+      </ul>
+      <!-- payment header section -->
+      <div class="text-center sm:px-40 pt-8">
+        <h1
+          class="text-5xl leading-tight font-semibold sm:font-bold text-[#472183]"
+        >
+          Flexible Plans for Everyone.
+        </h1>
+        <p class="leading-tight mt-2">
+          Our plans are made for everyone.Whether you're just starting out on
+          social, or have been on there for a long time, we have a plan that's
+          right for you.
+        </p>
+      </div>
+
+      <!-- service choice -->
+      <div
+        class="flex flex-col sm:flex-row justify-center gap-6 px-4 sm:px-32 py-6 mt-2"
+      >
+        <!-- 1st card -->
+        <article class="flex flex-col sm:self-start rounded-md p-8 bg-white">
+          <div class="mb-4">
+            <h1>Monthly</h1>
+            <p><span class="font-bold text-4xl">$4</span>/mo</p>
+          </div>
+          <hr class="border-black-600" />
+
+          <!-- our services -->
+          <div class="py-4 flex flex-col gap-4">
+            <div class="flex gap-2">
+              <img src="images/Checkmark.svg" alt="" />
+              <p>Linkedln Integration</p>
+            </div>
+
+            <div class="flex gap-2">
+              <img src="images/Checkmark.svg" alt="" />
+              <p>Twitter Integration</p>
+            </div>
+          </div>
+
+          <button
+            class="font-bold px-3 py-2 rounded bg-[#9DF1DF] hover:bg-[#84D2C5]"
+          >
+            Subscribe Now
+          </button>
+        </article>
+
+        <!-- 2nd card -->
+        <article class="flex flex-col rounded-md p-8 bg-white">
+          <div class="mb-4">
+            <h1>Monthly</h1>
+            <p><span class="font-bold text-4xl">$12</span>/mo</p>
+          </div>
+          <hr class="border-black-600" />
+
+          <!-- our services -->
+          <div class="py-4 flex flex-col gap-4">
+            <div class="flex gap-2">
+              <img src="images/Checkmark.svg" alt="" />
+              <p>Linkedln Integration</p>
+            </div>
+
+            <div class="flex gap-2">
+              <img src="images/Checkmark.svg" alt="" />
+              <p>Twitter Integration</p>
+            </div>
+
+            <div class="flex items-start gap-2">
+              <img src="images/Checkmark.svg" alt="" />
+              <p>Instagram Integration</p>
+            </div>
+
+            <div class="flex items-start gap-2">
+              <img src="images/Checkmark.svg" alt="" />
+              <p>Real-time Analytics</p>
+            </div>
+          </div>
+
+          <button
+            class="font-bold px-3 py-2 rounded bg-[#9DF1DF] hover:bg-[#84D2C5]"
+          >
+            Subscribe Now
+          </button>
+        </article>
+
+        <!-- 3rd card -->
+        <article class="flex flex-col sm:self-start rounded-md p-8 bg-white">
+          <div class="mb-4">
+            <h1>Monthly</h1>
+            <p><span class="font-bold text-4xl">$7</span>/mo</p>
+          </div>
+          <hr class="border-black-600" />
+
+          <!-- our services -->
+          <div class="py-4 flex flex-col gap-4">
+            <div class="flex gap-2">
+              <img src="images/Checkmark.svg" alt="" />
+              <p>Linkedln Integration</p>
+            </div>
+
+            <div class="flex gap-2">
+              <img src="images/Checkmark.svg" alt="" />
+              <p>Twitter Integration</p>
+            </div>
+
+            <div class="flex items-start gap-2">
+              <img src="images/Checkmark.svg" alt="" />
+              <p>Real-time Analytics</p>
+            </div>
+          </div>
+
+          <button
+            class="font-bold px-3 py-2 rounded bg-[#9DF1DF] hover:bg-[#84D2C5]"
+          >
+            Subscribe Now
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <img class="mx-4 sm:ml-32 mt-10 mb-4" src="images/Logo.svg" alt="" />
+    <section
+      class="flex flex-col sm:flex-row sm:justify-between px-4 sm:px-32 pb-10"
+    >
+      <!-- footer items container -->
+      <div class="flex gap-16 justify-between w-1/2">
+        <div>
+          <p class="font-bold text-xl my-3">Product</p>
+          <ul>
+            <li class="hover:text-[#FFFFE8]">Homepage</li>
+            <li class="hover:text-[#FFFFE8]">Pricing</li>
+            <li class="hover:text-[#FFFFE8]">
+              <a href="index.html">Features</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-bold text-xl my-3">Help</p>
+          <ul>
+            <li class="hover:text-[#FFFFE8]">Live Chat</li>
+            <li class="hover:text-[#FFFFE8]">Send Email</li>
+            <li class="hover:text-[#FFFFE8]">FAQ</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-bold text-xl my-3">Company</p>
+          <ul>
+            <li class="hover:text-[#FFFFE8]">About</li>
+            <li class="hover:text-[#FFFFE8]">Customer</li>
+            <li class="hover:text-[#FFFFE8]">Blog</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- footer input section -->
+      <div class="self-center">
+        <p class="font-bold text-xl my-3">Try TweetNow</p>
+        <form class="flex p-0.5 border border-solid border-black rounded">
+          <input
+            class="px-4 bg-gradient-to-r from-cyan-300 to-red-200"
+            placeholder="Enter your Email"
+            type="email"
+          />
+          <button
+            class="font-bold px-3 py-2 rounded text-white bg-[#4B56D2] hover:bg-[#472183]"
+          >
+            Start Scheduling
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
